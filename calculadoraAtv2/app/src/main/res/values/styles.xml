@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextoDoBotao" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+    <style name="botaoNumerico" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:minWidth">56dp</item>
+        <item name="android:textAppearance">@style/TextoDoBotao</item>
+    </style>
+</resources>
